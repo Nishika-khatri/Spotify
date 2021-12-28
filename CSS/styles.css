@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --darkest-color : #000000;
+    --primary-text-color: white;
+    --primary-gradient-color : #CF56A1;
+    --secondary-gradient-color: #8E05C2;
+    --tertiary-gradient-color: #7E0CF5;    
+}
+/**** NavBar Section ****/
+
+nav{
+    font-family: 'Heebo', sans-serif;
+    color: var(--primary-text-color);  
+}
+
+.navbar-custom .nav-items{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    background-color: var(--darkest-color);
+    height: 80px;
+    margin-bottom: 0;
+}
+
+.nav-items .list-items{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    padding-left: 40%;
+}
+.list-items li{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: 900;
+    font-size: 1.5rem;
+    list-style-type: none;
+    padding-left: 4rem;
+    padding-right: 1rem;
+}
+.fab.fa-spotify{
+    font-size: 2.5rem;
+    padding-right: 0.4rem;
+}
+
+.login-btn{
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+    list-style-type: none;
+    background-color: var(--darkest-color);
+    color: var(--primary-text-color);
+    border-style: none;
+    font-size: 1rem;
+}
+
+.far.fa-user-circle{
+    font-size: 2rem;
+    padding-right: 0.5rem;
+}
+
+.fas.fa-caret-down{
+    font-size: 1.5rem;
+    padding-left: 0.5rem;
+}
+
+/**** End of NavBar Section ****/
+
+
+/**** Spotify Top Container Section ****/
+.top-container{
+    display: grid;
+    background-color: aqua;
+    grid-template-columns: 30% 1fr;
+    background-image:linear-gradient(to bottom right,var(--primary-gradient-color),var(--tertiary-gradient-color), var(--secondary-gradient-color)) ;
+}
+
+.column1 img{
+    position: relative;
+    margin-top: 5.5rem;
+    margin-left: 3.5rem;
+    height: 550px;
+    width: 450px;
+}
+
+.column2 {
+    margin-top: 11.5rem;
+    font-family: 'Poppins', sans-serif;
+     margin-left: 4.5rem;
+}
+
+.column2 h1{
+    font-size: 3.5rem;
+    font-weight: 800;
+    padding-left: 3.5rem;
+    margin-right: 4.5rem;
+    color:var(--primary-text-color)
+}
+
+.btn.btn-light{
+    width:33%;
+    height: 10%;
+    border-radius: 999px;
+    
+}
+.fab.fa-apple{
+    font-size: 1.5rem;
+    padding-right: 0.5rem;
+    padding-top: 4px;
+}
+.fab.fa-google-play{
+    font-size: 1.5rem;
+    padding-right: 0.5rem;
+    padding-top: 4px;
+}
+.column2 span{
+    font-size: 10px;
+    display: inline;
+    padding-right: 0.1rem;
+}
+.column2 p{
+    font-size: 1rem;
+    display: inline;
+}
+.column2 .apple{
+    margin-top: 1rem;
+    margin-left:6.5rem;
+    
+}
+.column2 .google{
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+/**** End of Spotify Top Container Section ****/
+
+
+
+/**** Spotify Why Section ****/
+#midsec-heading{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 4rem;
+    color: var(--darkest-color);
+}
+.mid-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 4rem;
+}
+
+.mid-container div{
+    height: auto;
+    width: 270px;
+    text-align: center;
+    margin-left: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.mid-container .mid-items{
+    padding: 1rem;
+}
+
+.mid-items img{
+    height: 160px;
+}
+.mid-items h3{
+    font-family: 'Poppins', sans-serif; 
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--darkest-color);
+    margin-top: 2.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.mid-items p{
+    font-family: 'Heebo', sans-serif ;
+    font-size: 1rem;
+    color: var(--darkest-color);
+    font-weight: 500;
+    margin-top: 0.9rem;
+    letter-spacing: 0.25px;
+}
+/**** End of Spotify Why Section ****/
+
+
+/**** Spotify Mid2 Section ****/
+.mid2-section{
+    background-image: linear-gradient(185deg,var(--primary-gradient-color),var(--secondary-gradient-color),var(--tertiary-gradient-color));
+    height: 500px;
+    
+    
+}
+.mid2-section h1{
+    color: var(--primary-text-color);
+    font-family: 'Poppins', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+    
+}
+h1.space{
+    padding-top: 10.5rem;
+}
+/**** End of Spotify Mid2 Section ****/
+
+
+/**** Spotify Question Section ****/
+
+.ques-container{
+    margin: 3.5rem;
+}
+
+.ques-container h1{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: var(--darkest-color);
+}
+
+.faq-container{
+    margin-top: 2rem;
+}
+
+/**** End of Spotify Question Section ****/
+
+
+/**** Spotify Bottom Section ****/
+.bottom-container{
+    height: 500px;
+    background-image: linear-gradient(45deg, var(--primary-gradient-color),var(--tertiary-gradient-color));
+}
+
+/**** Spotify Bottom Section Ends ****/
+
+
+
+/**** Footer ****/
+.footer{
+    background-color: var(--darkest-color);
+    color: var(--primary-text-color);
+}
+/**** End of Footer ****/
