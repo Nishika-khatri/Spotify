@@ -9,6 +9,7 @@
     --darkest-color : #000000;
     --primary-text-color: white;
     --secondary-text-color: #519259;
+    --tertiary-text-color: #B2B1B9;
     --primary-gradient-color : #CF56A1;
     --secondary-gradient-color: #8E05C2;
     --tertiary-gradient-color: #7E0CF5; 
@@ -98,7 +99,7 @@ nav{
 .column2 {
     margin-top: 11.5rem;
     font-family: 'Poppins', sans-serif;
-     margin-left: 4.5rem;
+    margin-left: 4.5rem;
 }
 
 .column2 h1{
@@ -160,19 +161,18 @@ nav{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin: 4rem;
+    margin: 4rem 4rem 0 4rem;
 }
 
 .mid-container div{
-    height: auto;
+    /* height: auto; */
     width: 270px;
     text-align: center;
     margin-left: 0.5rem;
-    margin-bottom: 0.5rem;
 }
 
 .mid-container .mid-items{
-    padding: 1rem;
+    padding: 1rem 1rem 0 1rem;
 }
 
 .mid-items img{
@@ -223,7 +223,7 @@ h1.space{
 /**** Spotify Question Section ****/
 
 .accordian{
-    margin:3rem;
+    margin: 3rem 3rem 0 3rem;
 }
 .accordian .title{
     font-family: 'Poppins', sans-serif;
@@ -232,7 +232,6 @@ h1.space{
     color: var(--darkest-color);
     text-align: center;
     margin-top: 2rem;
-    margin-bottom: 2rem;
 }
 .accordian .accordian-text{
     display: flex;
@@ -343,5 +342,31 @@ h1.space{
 .footer{
     background-color: var(--darkest-color);
     color: var(--primary-text-color);
+    margin: 0;
+    padding: 0;
+}
+.footer .brand{
+    display: inline-flex;
+    padding-top: 5rem ;
+    padding-left: 3rem;
+
+}
+.footer .resource-container{
+    display: inline-flex;
+    width: 50%;
+    justify-content: space-around;
+    list-style: none;
+}
+.resource-container .useful-resources p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: var(--tertiary-text-color);
+}
+.resource-container .useful-resources li{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 3;
 }
 /**** End of Footer ****/
