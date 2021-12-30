@@ -19,71 +19,55 @@
 }
 /**** NavBar Section ****/
 
-nav{
+nav.navbar-custom{
     font-family: 'Heebo', sans-serif;
+    font-size: 1rem;
+    height: 5rem;
+    background-color: var(--darkest-color);
     color: var(--primary-text-color);  
 }
 
-.navbar-custom .nav-items{
+nav.navbar-custom .nav-items{
     display: flex;
-    align-items: center;
-    list-style-type: none;
-    background-color: var(--darkest-color);
-    height: 80px;
-    margin-bottom: 0;
+    justify-content: space-between;
+    margin-right: 3rem;
 }
 
-.nav-items .list-items{
+nav.navbar-custom .nav-items .brand{
     display: flex;
     list-style-type: none;
-    align-items: center;
-    padding-left: 40%;
-}
-.list-items li{
-    padding-left: 1rem;
-    padding-right: 1rem;
-}
-
-.brand{
-    display: flex;
-    align-items: center;
-    font-weight: 900;
     font-size: 1.5rem;
-    list-style-type: none;
-    padding-left: 4rem;
-    padding-right: 1rem;
-}
-.fab.fa-spotify{
-    font-size: 2.5rem;
-    padding-right: 0.4rem;
-}
-
-.login-btn{
-    display: flex;
+    font-weight: 700;
     align-items: center;
-    padding-left: 2rem;
-    list-style-type: none;
-    background-color: var(--darkest-color);
-    color: var(--primary-text-color);
-    border-style: none;
-    font-size: 1rem;
+    padding-top: 1rem;
 }
-
-.far.fa-user-circle{
-    font-size: 2rem;
+nav.navbar-custom .nav-items .brand .fab.fa-spotify{
+    font-size: 2.5rem;
     padding-right: 0.5rem;
 }
-
-.fas.fa-caret-down{
-    font-size: 1.5rem;
-    padding-left: 0.5rem;
+nav.navbar-custom .nav-items .list-items{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    padding-top: 1rem;
 }
-
+nav.navbar-custom .nav-items .list-items li{
+    padding-right: 1.5rem;
+    font-weight: 600;
+}
+nav.navbar-custom .nav-items .list-items li:hover{
+    cursor: pointer;
+    color: var(--secondary-text-color);
+}
+nav.navbar-custom .nav-items .list-items .vertical-line:hover{
+    color: var(--primary-text-color);
+    cursor: default;
+}
 /**** End of NavBar Section ****/
 
 
 /**** Spotify Top Container Section ****/
-.top-container{
+/* .top-container{
     display: flex;
     grid-template-columns: 30% 1fr;
     background-image:linear-gradient(to bottom right,var(--primary-gradient-color),var(--tertiary-gradient-color), var(--secondary-gradient-color)) ;
@@ -144,7 +128,7 @@ nav{
 .column2 .google{
     margin-top: 1rem;
     margin-left: 1rem;
-}
+} */
 /**** End of Spotify Top Container Section ****/
 
 
@@ -355,7 +339,15 @@ h1.space{
     display: inline-flex;
     padding-top: 5rem ;
     padding-left: 3rem;
+    list-style: none;
+    font-size: 1.5rem;
+    font-weight: 700;
+    align-items: center;
 
+}
+.footer .brand .fab.fa-spotify{
+    font-size: 2.5rem;
+    padding-right: 0.5rem;
 }
 .footer .resource-container{
     display: inline-flex;
