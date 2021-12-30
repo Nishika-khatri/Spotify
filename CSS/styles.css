@@ -59,6 +59,15 @@ nav.navbar-custom .nav-items .list-items li:hover{
     cursor: pointer;
     color: var(--secondary-text-color);
 }
+nav.navbar-custom .nav-items .list-items a{
+    padding-right: 1.5rem;
+    font-weight: 600;
+    color: var(--primary-text-color);
+    text-decoration: none;
+}
+nav.navbar-custom .nav-items .list-items a:hover{
+    color: var(--secondary-text-color);
+}
 nav.navbar-custom .nav-items .list-items .vertical-line:hover{
     color: var(--primary-text-color);
     cursor: default;
