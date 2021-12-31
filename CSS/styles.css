@@ -454,3 +454,175 @@ h1.space{
     
 }
 /**** End of Footer ****/
+
+
+/**** Start of Login page ****/
+
+/**** Header Section ****/
+div.header{
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: var(--darkest-color);
+    margin: 1.5rem;
+    justify-content: center;
+    margin-bottom: 0;
+}
+div.header i{
+    padding-right: 0.5rem;
+    font-size: 3.5rem;
+}
+/**** End of Header Section ****/
+
+/*** horizontal line ****/
+#hr-line{
+    border-top: 1px solid var(--tertiary-text-color);
+    box-shadow: none;
+    border-bottom-width: 0;
+    margin-top: 0;
+}
+/*** horizontal line ****/
+
+/*** Start of P-tag ****/
+#tag-line{
+    text-align: center;
+    margin: 1.5rem 1rem 1rem 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+/**** End of P-tag ****/
+
+/**** Start of Buttons ****/
+div.login-opt-buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+div.login-opt-buttons button{
+    display: flex;
+    width: 26rem;
+    height: 2.5rem;
+    border-radius: 999px;
+    justify-content: center;
+    margin: 0.3rem 1rem 0.3rem 1rem;
+}
+div.login-opt-buttons button i{
+    align-self: center;
+    padding-right: 0.5rem;
+}
+div.login-opt-buttons button p{
+    font-weight: 500;
+}
+div.login-opt-buttons button.btn.btn-dark:hover{
+    background-color: var(--darkest-color);
+}
+/**** End of Buttons ****/
+
+/**** Start of Form Section ****/
+
+div.extra-details{
+    display: flex;
+    justify-content: center;
+}
+div.extra-details hr{
+    width: 11rem;
+    margin: 1rem;
+   border-top: 2px solid var(--darkest-color);
+}
+div.extra-details p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9rem;
+    margin-top: 0.3rem;
+    font-weight: 500;
+    color: var(--darkest-color);
+}
+
+form.login-page{
+   width: 26rem;
+    margin: auto;
+}
+
+form.login-page label{
+    font-family: 'Heebo', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 600;
+    word-spacing: 2px;
+    color: var(--darkest-color);
+}
+form.login-page label.custom-label{
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+}
+form.login-page input{
+    width: 25rem;
+    height: 2rem;
+}
+form.login-page input#email{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+form.login-page input#password{
+    padding-left: 1rem ;
+    padding-right: 1rem;
+}
+form.login-page a.pss-link{
+    display: flex;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--tertiary-box-color);
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+form.login-page a.pss-link:hover{
+    color: var(--secondary-text-color);
+}
+form.login-page input#credentials{
+    display: inline-flex;
+    width: 30px;
+    height: 16px;
+    padding-left: 0.1rem;
+}
+form.login-page .remember-me{
+    color: var(--tertiary-box-color);
+}
+form.login-page .btn.login-btn{
+    border-radius: 999px;
+    height: 3.5rem;
+    width: 10rem;
+    margin-top: 1rem;
+    margin-left: 5rem;
+}
+div#end-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+div#end-div hr{
+    width: 26rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-top: 2px solid var(--darkest-color);
+}
+div#end-div h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--darkest-color);
+}
+div#end-div .btn.btn-outline-secondary{
+    border-radius: 999px;
+    width: 26rem;
+    height: 2.5rem;
+    margin: 0.5rem 1rem 1rem 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+
+
+/**** End of Form Section ****/
+
+/**** End of Login Page ****/
