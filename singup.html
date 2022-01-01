@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/40c65c0ad3.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="CSS/styles.css">
     <title>Sign up - Spotify</title>
 </head>
@@ -14,51 +15,68 @@
         <span>Spotify</span>
     </div>
     <h3 class="tag-line">Sign up for free to start listening.</h3>
-    <button class="btn signup">Sign up with Facebook</button>
-    <hr>
-    <p>OR</p>
-    <hr>
+    <button class="btn btn-primary signup">Sign up with Facebook</button>
+    <div class="extra-details">
+        <hr>
+        <p>OR</p>
+        <hr>
+    </div>
     <!--Form Section-->
-    <form action="">
+    <h4 class="form-heading">Sign up with your email address</h4>
+    <form class="signup-form" action="">
         <label for="email-id">What's your email?</label><br>
-        <input type="text" value="Enter your email." name="email-id"><br>
-        <a href="#">Use phone number instead.</a><br>
+        <input type="text" value="Enter your email." name="email-id" class="input-space"><br>
         <label for="re-email">Confirm your email</label><br>
-        <input type="text" value="Enter your email again." name="re-email"><br>
+        <input type="text" value="Enter your email again." name="re-email" class="input-space"><br>
         <label for="pass">Create a password</label><br>
-        <input type="password" avlue="Create a password." name="pass"><br>
+        <input type="password" avlue="Create a password." name="pass" class="input-space"><br>
         <label for="name">What should we call you?</label><br>
-        <input type="text" value="Enter a profile name." name="name"><br>
-        <p>This appears on your profile.</p>
+        <input type="text" value="Enter a profile name." name="name" class="input-space"><br>
+        <p id="form-text">This appears on your profile.</p>
         <label for="dob">Year</label>
-        <input type="date" name="dob" id="dob" value="DD-MM-YYYY"><br>
+        <input type="date" name="dob" id="dob" value="DD-MM-YYYY" class="input-space"><br>
         <label for="gender">What's your gender?</label><br>
-        <input type="radio" name="gender" id="male">
-        <label for="male">Male</label>
-        <input type="radio" name="gender" id="female">
-        <label for="female">Female</label>
-        <input type="radio" name="gender" id="non-binary">
-        <label for="male">Non-binary</label><br>
-        <input type="checkbox" name="get-no-msg" id="get-no-msg">
-        <label for="get-no-msg">I would prefer not to receive marketing messages from Spotify</label><br>
-        <input type="checkbox" name="share-data" id="share-data">
-        <label for="share-data">Share my registration data with Spotify's content providers for marketing purposes.</label>
+        <div class="gender">
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="non-binary">
+            <label for="male">Non-binary</label><br>
+        </div>
+        <div class="checkbox-1">
+            <input type="checkbox" name="get-no-msg" id="get-no-msg">
+            <label for="get-no-msg">I would prefer not to receive marketing messages from Spotify.</label><br>
+        </div>
+        <div class="checkbox-2">
+            <input type="checkbox" name="share-data" id="share-data">
+            <label for="share-data">Share my registration data with Spotify's content providers for marketing purposes.</label><br>
+        </div>
     </form>
+
     <!--ReCaptcha Section-->
-    <form action="">
-        <input type="checkbox" name="robot" id="robot">
-        <label for="robot">I'm not a robot</label>
-        <img src="Images/recaptcha.png" alt="recaptcha-logo">
-        <label>Privacy-Terms</label>
+    <form id="rep-form" action="">
+        <div class="recaptcha-section">
+            <input type="checkbox" name="robot" id="robot">
+            <label for="robot">I'm not a robot</label>
+        </div>
+        <div class="rep-logo">
+            <img src="Images/recaptcha.png" alt="recaptcha-logo">
+            <p>Privacy-Terms</p>
+        </div>
+        
     </form>
     <ul class="instructions">
         <li>By clicking on sign-up, you agree to Spotify's <a href="#">Terms and Conditions of Use.</a></li>
         <li>To learn more about how Spotify collects, uses, shares and protects your personal data, please see <a href="#">Spotify's Privacy Policy.</a></li>
     </ul>
-    <button class="btn sign-up" id="end-btn">Sign up</button>
-    <p>Have an account? <a href="login.html">Log in</a>.</p>
+    <div class="end-btn">
+        <button class="btn btn-success sign-up">Sign up</button>
+        <p>Have an account? <a href="login.html">Log in</a>.</p>
+    </div>
+    
 
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="JavaScript/index.js"></script>
 </body>
 </html>

@@ -620,9 +620,212 @@ div#end-div .btn.btn-outline-secondary{
     font-size: 0.9rem;
     font-weight: 600;
 }
-
-
-
 /**** End of Form Section ****/
 
 /**** End of Login Page ****/
+
+/**** Start of Signup Page ****/
+
+/**** Head section ****/
+div.brand{
+    display: flex;
+    justify-content: center;
+    margin: 2rem 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--darkest-color);
+}
+div.brand i{
+    font-size: 2.5rem;
+    padding-right: 0.3rem;
+}
+
+h3.tag-line{
+    font-family: 'Heebo', sans-serif;
+    text-align: center;
+    font-size: 1.9rem;
+    font-weight: 900;
+    color: var(--darkest-color);
+}
+
+button.btn.btn-primary.signup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 999px;
+    margin: 1.5rem auto 0.5rem auto;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 700;
+    width: 13rem;
+    height: 3rem;
+}
+/**** End of Head Section ****/
+
+/**** Start of Form Section ****/
+h4.form-heading{
+    font-family: 'Poppins',sans-serif;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--tertiary-box-color);
+    word-spacing: 2px;
+}
+form.signup-form{
+    width: 26rem;
+    margin: auto;
+}
+form.signup-form label{
+    font-family: 'Heebo', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 600;
+    word-spacing: 2px;
+    color: var(--darkest-color);
+}
+form.signup-form input{
+    width: 26rem;
+    height: 2.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+form.signup-form input.input-space{
+    margin-top: 0.3rem;
+    margin-bottom: 0.7rem;
+}
+form.signup-form p#form-text{
+    font-family: 'Poppins',sans-serif;
+    font-size: 0.7rem;
+    font-weight: 500;
+    color: var(--darkest-color);
+}
+form.signup-form div.gender{
+    display: flex;
+    align-items: center;
+}
+form.signup-form div.gender input{
+    width: 20px;
+    border-color: var(--tertiary-box-color);
+    margin-right: 0.5rem;
+}
+form.signup-form div.gender label{
+    font-family: 'Poppins',sans-serif;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: var(--tertiary-box-color);
+    margin-right: 1.5rem;
+}
+form.signup-form div.checkbox-1{
+    display: flex;
+}
+form.signup-form div.checkbox-1 input#get-no-msg{
+    width: 1rem;
+    margin-right: 1rem;
+    border-color: var(--tertiary-box-color);
+}
+form.signup-form div.checkbox-1 label{
+    font-family: 'Heebo',sans-serif;
+    font-size: 0.8rem;
+    font-family: 200;
+    align-self: center;
+    color: var(--tertiary-box-color);
+}
+form.signup-form div.checkbox-2{
+    display: flex;
+}
+form.signup-form div.checkbox-2 input#share-data{
+    width: 1.3rem;
+    margin-right: 1rem;
+    border-color: var(--tertiary-box-color);
+}
+form.signup-form div.checkbox-2 label{
+    font-family: 'Heebo',sans-serif;
+    font-size: 0.8rem;
+    font-family: 200;
+    align-self: center;
+    color: var(--tertiary-box-color);
+}
+
+form#rep-form{
+    width:18rem;
+    margin: 1.5rem auto 0 auto;
+    border-style: solid;
+    border-width: 1px;
+    border-color: var(--tertiary-text-color);
+    padding: 1rem;
+}
+form#rep-form div.recaptcha-section{
+    display: inline;
+    align-items: center;
+    font-family: 'Poppins',sans-serif;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: var(--tertiary-box-color);
+}
+form#rep-form div.recaptcha-section input#robot{
+    width:1.5rem;
+    height: 1.5rem;
+    margin-right: 0.7rem;
+}
+form#rep-form div.rep-logo{
+    display: inline-flex;
+    flex-direction: column;
+    margin-left: 3rem;
+    
+}
+form#rep-form div.rep-logo img{
+    height: 1.5rem;
+    width: 2rem;
+}
+form#rep-form div.rep-logo p{
+    font-family: 'Poppins',sans-serif;
+    font-size: 0.5rem;
+    font-weight: 500;
+    color: var(--tertiary-box-color);
+}
+ul.instructions{
+    width: 30rem;
+    margin: 2rem auto 1rem auto;
+}
+ul.instructions li{
+    font-family: 'Heebo', sans-serif;
+    font-size: 0.7rem;
+    font-weight: 500;
+    color: var(--darkest-color);
+    list-style: none;
+    word-spacing: 2px;
+    text-align: center;
+    margin-top: 1rem;
+}
+ul.instructions li a{
+    color: var(--secondary-text-color);
+    font-weight: 600;
+}
+
+div.end-btn{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem 33rem 1rem 33rem;
+}
+div.end-btn button{
+    height: 3.5rem;
+    width: 10rem;
+    border-radius: 999px;
+    margin-bottom: 1rem;
+    font-family: 'Poppins',sans-serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+div.end-btn p{
+    font-family: 'Heebo',sans-serif;
+    font-size: 1rem;
+    color: var(--darkest-color);
+}
+div.end-btn p a{
+    color: var(--secondary-text-color);
+    font-weight: 700;
+}
+/**** End of Form Section ****/
+
+/**** End of Signup Page ****/
